@@ -15,8 +15,8 @@
     <div *ngIf="urlImagen$ | async as url">
       <div *ngIf="mostrarFotografiaRecienSubida" style="text-align: center; margin-bottom: 24px;">
         <img [src]="url" alt="Archivo subida" style="max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-top: 16px;">
-        <ion-button (click)="mostrarFotografiaRecienSubida = false" color="medium" style="margin-top: 12px;">
-          Ocultar imagen subida
+        <br><ion-button (click)="mostrarFotografiaRecienSubida = false" color="medium" style="margin-top: 12px;">
+          Ocultar archivo subido
         </ion-button>
       </div>
     </div>
@@ -24,9 +24,9 @@
       Ver archivos subidos
     </ion-button>
     <div *ngIf="imagenesPersistentes.length > 0 && mostrarGaleriaFotografias">
-      <h2 style="margin-bottom: 16px; color: #333;">Imágenes subidas</h2>
+      <h2 style="margin-bottom: 16px; color: #333;">Archivos subidos</h2>
       <ion-button (click)="mostrarGaleriaFotografias = false" color="medium" style="margin-bottom: 16px;">
-        Ocultar galería
+        Ocultar archivos
       </ion-button>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px;">
         <div *ngFor="let img of imagenesPersistentes" style="background: #f9f9f9; display: flex; flex-direction: column; align-items: center; border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px; width: 100%; max-width: 220px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
@@ -35,7 +35,7 @@
           <p style="margin: 0 0 12px 0; color: #888;"><strong>Tipo:</strong> {{ img.tipo }}</p>
           <a [href]="img.url" [download]="img.nombre" style="width: 100%;">
             <ion-button expand="block" color="success">
-              Descargar
+              Ver/Descargar
             </ion-button>
           </a>
         </div>
