@@ -63,8 +63,13 @@ Permite subir imágenes o archivos a Supabase. Al subir, se guarda la info (nomb
 ![image](https://github.com/user-attachments/assets/9e2ee3a5-4933-4012-8791-2b3e41900216)
 
 **Visualizar todos los archivos registrados**
-Cabe recalcar que para que se visualice la funcionalidad se registraron mas archivos.
+Cabe recalcar que se registraron mas archivos para que se visualice la funcionalidad.
+
 ![image](https://github.com/user-attachments/assets/f74bd859-74fb-4358-ae38-45377875a59b)
+
+![image](https://github.com/user-attachments/assets/3e92ff44-0997-4b76-96dd-46cfd371b71e)
+
+![image](https://github.com/user-attachments/assets/3861e58c-0d2f-4767-9211-c4a69b4aa267)
 
 ## 🧪 Para correr el proyecto
 
