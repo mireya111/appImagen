@@ -33,6 +33,8 @@ log.txt
 /node_modules
 npm-debug.log
 yarn-error.log
+src/environments/environment.ts
+src/environments/environment.prod.ts
 
 # IDEs and editors
 .idea/
